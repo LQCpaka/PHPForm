@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Giao diện mẫu</title>
+
+		<!-- Khai báo CSS -->
+		<link rel="stylesheet" href="MyScript/bootstrap.min.css">
+		<link rel="stylesheet" href="MyScript/mystyle.css">
+	</head>
+	<body>
+		<div class="container">
+			
+			<!-- Phần thực đơn -->
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg navbar-light bg-secondary mb-2">
+					  	<a class="navbar-brand text-white font-weight-bold" href="index.php">SÁCH</a>    
+					  	<ul class="navbar-nav">
+						  	<li class="nav-item text-white">
+						       	<a class="nav-link text-white" href="#">Xem sách </a>
+						    </li>
+						    <li class="nav-item">
+						       	<a class="nav-link text-white" href="#">Thêm sách</a>
+						    </li>
+						</ul>
+					</nav>	
+				</div>
+			</div>
+
+			<!-- Phần nội dung xem sách -->
+			<div class="row justify-content-center">
+				<!-- Cột bên trái => Liệt kê các chủ đề -->
+				<div class="col-md-3">
+					<div class="card">
+						<div class="card-header text-center">CHỦ ĐỀ</div>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item text-success">
+								<div class="chude" MaCD="1">Công nghệ thông tin</div>
+							</li>
+							<li class="list-group-item text-success">
+								<div class="chude" MaCD="1">Ngoại ngữ</div>
+							</li>
+							<li class="list-group-item text-success">
+								<div class="chude" MaCD="1">Kinh tế</div>
+							</li>
+							<li class="list-group-item text-success">
+								<div class="chude" MaCD="1">Tâm lý xã hội</div>
+							</li>
+							<li class="list-group-item text-success">
+								<div class="chude" MaCD="1">Nữ công gia chánh</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Cột bên phải => Liệt kê sách theo chủ đề -->
+				<div class="col-md-9">			
+					<div id="ketqua" class="row">
+						<div class="col-sm-4 mb-3">
+							<div class="card">
+								<div class="card-header bg-danger text-white"> Lập trình mạng</div>
+								<img src="..\Bia_sach\TH001.jpg" alt="AnhBia" class="card-img-top">
+								<div class="card-footer text-center">
+									<div class="card-title">Đơn giá: 120000 VNĐ</div>
+									<div class="btn btn-success m-auto">Xem chi tiết</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-3">
+							<div class="card">
+								<div class="card-header bg-danger text-white">Photoshop</div>
+								<img src="..\Bia_sach\TH002.jpg" alt="AnhBia" class="card-img-top">
+								<div class="card-footer text-center">
+									<div class="card-title">Đơn giá: 150000 VNĐ</div>
+									<div class="btn btn-success m-auto">Xem chi tiết</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-3">
+							<div class="card">
+								<div class="card-header bg-danger text-white">Norton Antivirus</div>
+								<img src="..\Bia_sach\TH003.jpg" alt="AnhBia" class="card-img-top">
+								<div class="card-footer text-center">
+									<div class="card-title">Đơn giá: 110000 VNĐ</div>
+									<div class="btn btn-success m-auto">Xem chi tiết</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-3">
+							<div class="card">
+								<div class="card-header bg-danger text-white">Tin học văn phòng</div>
+								<img src="..\Bia_sach\TH004.jpg" alt="AnhBia" class="card-img-top">
+								<div class="card-footer text-center">
+									<div class="card-title">Đơn giá: 130000 VNĐ</div>
+									<div class="btn btn-success m-auto">Xem chi tiết</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-3">
+							<div class="card">
+								<div class="card-header bg-danger text-white">Photoshop 6.0</div>
+								<img src="..\Bia_sach\TH005.jpg" alt="AnhBia" class="card-img-top">
+								<div class="card-footer text-center">
+									<div class="card-title">Đơn giá: 150000 VNĐ</div>
+									<div class="btn btn-success m-auto">Xem chi tiết</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-3">
+							<div class="card">
+								<div class="card-header bg-danger text-white"> Oracle 9i	</div>
+								<img src="..\Bia_sach\TH006.jpg" alt="AnhBia" class="card-img-top">
+								<div class="card-footer text-center">
+									<div class="card-title">Đơn giá: 140000 VNĐ</div>
+									<div class="btn btn-success m-auto">Xem chi tiết</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<!-- Phần footer -->
+			<div id="footer" class=" row justify-content-center">
+				<div class="col font-weight-bold text-white bg-dark text-center">Mã số sinh viên: xxxxxxxxxxxx - Họ Tên: Nguyễn Văn An - 	Ngày thực hiện: 14/11/2021
+				</div>
+			</div>
+		</div>
+		
+		<!-- Khai báo và sử dụng Script -->
+		<script src="MyScript/jquery-3.6.0.min.js"></script>
+		<script src="MyScript/popper.min.js"></script>
+		<script src="MyScript/bootstrap.min.js"></script>
+	</body>
+</html>
